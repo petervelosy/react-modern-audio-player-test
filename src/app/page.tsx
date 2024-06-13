@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AudioPlayer from "./components/AudioPlayer";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
               priority
             />
           </a>
+          <AudioPlayer url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" />
         </div>
       </div>
 
